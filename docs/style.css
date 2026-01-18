@@ -1,0 +1,29 @@
+/* DARK FANTASY STYLE */
+body {
+    background-color: #0d0d0d;  /* noir profond */
+    color: #e60000;             /* rouge sang */
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    text-shadow: 2px 2px 5px #000;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: "🗡️ ";  /* petite icône épée devant chaque item */
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #ff1a1a;
+    text-shadow: 1px 1px 3px #000;
+}
